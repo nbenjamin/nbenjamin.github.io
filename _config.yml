@@ -1,40 +1,45 @@
-# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+# Name of the site (displayed in the header)
+name: Nidhin Benjamine
 
-paginate: 10 # pagination based on number of posts
-paginate_path: "page:num"
-exclude: ["README.md"] # files to exclude
-highlighter: rouge
-markdown: kramdown
-disqus: nbenjamin
-google_analytics: dbyll
-title: nbenjamin
+# Short bio or description (displayed in the header)
+description:
 
-defaults:
-  -
-    scope:
-      path: "" # empty string for all files
-    values:
-      title: nbenjamin
+# URL of your avatar or profile pic (you could use your GitHub profile pic)
+avatar: https://avatars3.githubusercontent.com/u/870715?s=400&u=4356646c079ef07c94bfb57f6217e96b6c8ef3b7&v=4
 
-description: Stylish Jekyll Theme
-author:
-  name: nbenjamin
-  email: 
+
+# Includes an icon in the footer for each username you enter
+footer-links:
+  email: nbenjamine@gmail.com
   github: nbenjamin
-  twitter:
-  pinterest: 
-  linkedin: 
-  bio: Software Engineer, passion to learn, Father of two kids!
-  email_md5: 726351295ec82e145928582f595aa3aa
+  linkedin: nidhin-benjamine-9a395314
+  twitter: nidhinbenjamin
 
-rss_path: feed.xml
-categories_path: categories.html
-tags_path: tags.html
+url: http://nbenjamin.tech
 
-# set it as url of an image
-# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+baseurl: ""
 
-BASE_PATH:
+#
+# !! You don't need to change any of the configuration flags below !!
+#
 
-gems:
-  - jekyll-paginate
+permalink:            pretty
+
+markdown:             kramdown
+kramdown:
+  input:              GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    # Use existing pygments syntax highlighting css
+    css_class: 'highlight'
+
+sass:
+  style: :compressed # expanded or compressed
+
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
