@@ -39,10 +39,12 @@ In this post, we will be creating a reactive rest application using [Spring webF
   docker-compose -f docker/docker-compose.yml up
   ```
 3. Verify postgreSQL is up and running
+
   ```properties
   docker ps -a | grep postgres
   ```
 output
+
   ```properties
   48414afd73fc  postgres   "docker-entrypoint.s…"   2 days ago  etc....
 
@@ -53,9 +55,11 @@ output
   docker ps -a | grep adminer
   ```
 output
+
   ```properties
   3b2402e3d8cb        adminer                                 "entrypoint.sh docke…"   2 days ago
   ```
+  
 5. You can access [Adminer](https://www.adminer.org/) from browser using the following url
   ```properties
   http://localhost:8080/
