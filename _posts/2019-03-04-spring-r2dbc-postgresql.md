@@ -11,7 +11,13 @@ In this post, we will be creating a reactive rest application using [Spring webF
 
 ### Dependency required for spring-data-r2dbc
 ```xml
+<!-- webflux -->
+<dependency>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot-starter-webflux</artifactId>
+</dependency>
 
+<!-- spring-data-r2dbc-->
 <dependency>
     <groupId>org.springframework.data</groupId>
     <artifactId>spring-data-r2dbc</artifactId>
