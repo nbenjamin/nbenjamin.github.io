@@ -1,3 +1,12 @@
+---
+layout: post
+title: Spring Security with Custom UserDetailsService Implementation
+categories:
+  - spring
+  - spring security
+  - mongodb
+comments: true
+---
 # Custom userDetailService
 
 `UserDetailsService` is specification around username, password and authorities. 
