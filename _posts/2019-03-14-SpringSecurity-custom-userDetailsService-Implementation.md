@@ -7,10 +7,9 @@ categories:
   - mongodb
 comments: true
 ---
-# Custom userDetailService
-
 `UserDetailsService` is specification around username, password and authorities. 
-This core interface which loads user-specific data from configured back end service.
+This core interface which loads user-specific data from configured back end service. In this example shows how to 
+implement custom `UserDetailsService`
 
 You can find the [code](https://github.com/nbenjamin/spring-security-samples/tree/master/without-webflux-custom-userdetailservice) here
  
