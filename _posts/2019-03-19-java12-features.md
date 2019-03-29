@@ -9,8 +9,6 @@ categories:
 comments: true
 ---
 
-# Java 12 main features
-
 `Preview Feature` - This feature enables to use features which are not finalized or not really ready, this might be ready in upcoming releases.
 
 By default, this feature is disabled in Java 12 both in compile and runtime.
