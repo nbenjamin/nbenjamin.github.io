@@ -1,4 +1,14 @@
-# Secure endpoints using Spring Security and JWT
+---
+layout: post
+title: Secure endpoints using Spring Security and JWT
+categories:
+  - spring
+  - Spring boot
+  - spring security5.x
+  - JWT
+comments: true
+---
+
 This example shows how to secure your endpoints using simple spring security and also
 using JWT. Spring security out of the box provides basic authentication by adding the following dependency your pom file.
 
