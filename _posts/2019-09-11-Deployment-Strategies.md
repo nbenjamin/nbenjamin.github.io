@@ -91,10 +91,8 @@ Once testing is over, its time to switch over to the new version
 <img width="979" alt="Screen Shot 2019-09-11 at 3 22 59 PM" src="https://user-images.githubusercontent.com/870715/64727972-0ed5d600-d4a8-11e9-9cdd-e8a9b0816acb.png">
 
 
-
-
-    
 **Canary**
+
 Canary deployments are a pattern for rolling out releases to a subset of users or servers. The idea is to first deploy the change to a small subset of servers, test it, and then roll the change out to the rest of the servers.
 
 If you are already in Applicaiton->Router page, then select 
@@ -103,3 +101,10 @@ If you are already in Applicaiton->Router page, then select
 <img width="1252" alt="Screen Shot 2019-09-11 at 3 58 33 PM" src="https://user-images.githubusercontent.com/870715/64731179-a9d1ae80-d4ae-11e9-9d61-05120c53b1d5.png">
 
 In the above configuration, selected 50% weight, so in this case, first request goes to `blue` page and the second request goes to `green`
+
+
+**A/B Testing**
+
+A/B testing is suitable for frontend applications that are introducing new features or user interface changes. Its very important to hear feedback users, thus doing it directly in production is the best test environment you can have. The users' reaction can show whether changes you have done are intuitive or not, and you can eventually adapt your changes according to the feedback.
+
+OpenShift's perspective, this is literally the same as canary deployment, except that you set the weights between the two services to 50% each
